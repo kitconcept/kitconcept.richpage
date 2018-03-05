@@ -35,7 +35,6 @@
   <!-- Enabled behaviors -->
   <property name="behaviors">
     <element value="plone.app.dexterity.behaviors.filename.INameFromFileName"/>
-    <element value="elif.hashtags" />
   </property>
 
   <!-- View information -->
