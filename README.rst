@@ -6,6 +6,29 @@
 kitconcept.richpage
 ==============================================================================
 
+.. image:: https://travis-ci.org/kitconcept/kitconcept.richpage.svg?branch=master
+    :target: https://travis-ci.org/kitconcept/kitconcept.richpage
+
+.. image:: https://img.shields.io/pypi/status/kitconcept.richpage.svg
+    :target: https://pypi.python.org/pypi/kitconcept.richpage/
+    :alt: Egg Status
+
+.. image:: https://img.shields.io/pypi/v/kitconcept.richpage.svg
+    :target: https://pypi.python.org/pypi/kitconcept.richpage/
+    :alt: Latest Version
+
+.. image:: https://img.shields.io/pypi/l/kitconcept.richpage.svg
+    :target: https://pypi.python.org/pypi/kitconcept.richpage/
+    :alt: License
+
+|
+
+.. image:: https://raw.githubusercontent.com/kitconcept/kitconcept.richpage/master/kitconcept.png
+   :alt: kitconcept
+   :target: https://kitconcept.com/
+
+|
+
 kitconcept.richpage is a Plone add-on product with a "folderish" RichPage
 content object.
 A RichPage can contain the following content:
