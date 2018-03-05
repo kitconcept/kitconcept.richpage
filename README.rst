@@ -6,7 +6,21 @@
 kitconcept.richpage
 ==============================================================================
 
-Tell me what your product does
+kitconcept.richpage is a Plone add-on product with a "folderish" RichPage
+content object.
+A RichPage can contain the following content:
+
+  - Text
+  - Image
+  - Audio
+  - Video
+  - File
+  - Slideshow
+  - Google Maps
+
+This package does only contain the bare content types.
+You currently have to build your own front-end for this.
+We recommend to use plone-react for this.
 
 Features
 --------
@@ -32,7 +46,7 @@ Translations
 
 This product has been translated into
 
-- Klingon (thanks, K'Plai)
+- German
 
 
 Installation
@@ -54,17 +68,15 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/kitconcept.richpage/issues
-- Source Code: https://github.com/collective/kitconcept.richpage
-- Documentation: https://docs.plone.org/foo/bar
+- Issue Tracker: https://github.com/kitconcept/kitconcept.richpage/issues
+- Source Code: https://github.com/kitconcept/kitconcept.richpage
 
 
 Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
-
+Send an email to info@kitconcept.com.
 
 License
 -------
