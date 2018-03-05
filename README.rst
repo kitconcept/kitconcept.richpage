@@ -10,13 +10,13 @@ kitconcept.richpage is a Plone add-on product with a "folderish" RichPage
 content object.
 A RichPage can contain the following content:
 
-  - Text
-  - Image
-  - Audio
-  - Video
-  - File
-  - Slideshow
-  - Google Maps
+- Text
+- Image
+- Audio
+- Video
+- File
+- Slideshow
+- Google Maps
 
 This package does only contain the bare content types.
 You currently have to build your own front-end for this.
