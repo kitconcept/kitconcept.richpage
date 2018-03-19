@@ -10,7 +10,7 @@ class IText(Interface):
 
     title = schema.TextLine(
         title=_(u"Title"),
-        required=True,
+        required=False,
     )
 
 
