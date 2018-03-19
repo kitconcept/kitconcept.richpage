@@ -2,6 +2,7 @@
 from kitconcept.richpage.content.audio import IAudio
 from kitconcept.richpage.content.googlemap import IGoogleMap
 from kitconcept.richpage.content.image import IImage
+from kitconcept.richpage.content.file import IFile
 from kitconcept.richpage.content.richpage import IRichPage
 from kitconcept.richpage.content.slideshow import ISlideshow
 from kitconcept.richpage.content.text import IText
@@ -62,6 +63,12 @@ class ContentIntegrationTest(unittest.TestCase):
         self.portal['RichPage'].invokeFactory('RichPageImage', 'RichPageImage')
         self.assertTrue(
             IImage.providedBy(self.portal['RichPage']['RichPageImage']))
+
+    def test_richpage_adding_file(self):
+        self.add_richpage()
+        self.portal['RichPage'].invokeFactory('RichPageFile', 'RichPageFile')
+        self.assertTrue(
+            IFile.providedBy(self.portal['RichPage']['RichPageFile']))
 
     def test_richpage_adding_audio(self):
         self.add_richpage()
