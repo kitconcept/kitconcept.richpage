@@ -10,7 +10,7 @@ class IGoogleMap(Interface):
 
     title = schema.TextLine(
         title=_(u"Title"),
-        required=False,
+        required=True,
     )
 
     google_map_embed_url = schema.TextLine(

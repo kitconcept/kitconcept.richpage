@@ -2,7 +2,6 @@
 <object name="portal_types" meta_type="Plone Types Tool">
   <object name="RichPageText" meta_type="Dexterity FTI"/>
   <object name="RichPageImage" meta_type="Dexterity FTI"/>
-  <object name="RichPageFile" meta_type="Dexterity FTI"/>
   <object name="Audio" meta_type="Dexterity FTI"/>
   <object name="Video" meta_type="Dexterity FTI"/>
   <object name="GoogleMap" meta_type="Dexterity FTI"/>

@@ -34,6 +34,7 @@
 
   <!-- Enabled behaviors -->
   <property name="behaviors">
+    <element value="plone.app.dexterity.behaviors.filename.INameFromFileName"/>
   </property>
 
   <!-- View information -->

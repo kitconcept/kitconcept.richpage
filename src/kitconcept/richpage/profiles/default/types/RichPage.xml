@@ -22,11 +22,11 @@
   <property name="allowed_content_types">
     <element value="RichPageText" />
     <element value="RichPageImage" />
-    <element value="RichPageFile" />
     <element value="Audio" />
     <element value="Video" />
     <element value="GoogleMap" />
     <element value="Slideshow" />
+    <element value="File" />
   </property>
   <property name="filter_content_types">True</property>
   <property name="global_allow">True</property>
