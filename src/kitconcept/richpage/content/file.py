@@ -27,6 +27,11 @@ class IFile(model.Schema):
         required=True,
     )
 
+    alternate_filename = schema.TextLine(
+        title=_(u"Datei-Titel"),
+        required=False,
+    )
+
 
 @implementer(IFile)
 class File(File):
