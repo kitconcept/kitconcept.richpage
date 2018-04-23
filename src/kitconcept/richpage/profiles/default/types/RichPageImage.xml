@@ -35,6 +35,7 @@
   <!-- Enabled behaviors -->
   <property name="behaviors">
     <element value="plone.app.contenttypes.behaviors.leadimage.ILeadImage"/>
+    <element value="collective.dexteritytextindexer.behavior.IDexterityTextIndexer" />
   </property>
 
   <!-- View information -->

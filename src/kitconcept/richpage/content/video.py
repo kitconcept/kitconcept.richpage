@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
+from collective import dexteritytextindexer
 from kitconcept.richpage import _
 from plone.dexterity.content import Item
 from plone.namedfile import field as namedfile
+from plone.supermodel.model import Schema
 from zope import schema
 from zope.interface import implementer
-from zope.interface import Interface
 
 
-class IVideo(Interface):
+class IVideo(Schema):
     """ The IVideo interface"""
 
     title = schema.TextLine(
@@ -29,11 +30,13 @@ class IVideo(Interface):
         required=True,
     )
 
+    dexteritytextindexer.searchable('transcript_description')
     transcript_description = schema.Text(
         title=_(u"Transkript Beschreibung"),
         required=False,
     )
 
+    dexteritytextindexer.searchable('transcript_title')
     transcript_title = schema.TextLine(
         title=_(u"Transkript Titel"),
         required=False,
@@ -41,7 +44,7 @@ class IVideo(Interface):
 
     transcript_file = namedfile.NamedBlobFile(
         title=_(u'Transkript Datei'),
-        required=True,
+        required=False,
     )
 
 

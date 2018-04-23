@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 from kitconcept.richpage import _
-from zope import schema
-from zope.interface import Interface
 from plone.dexterity.content import Item
+from plone.supermodel.model import Schema
+from zope import schema
 from zope.interface import implementer
 
 
-class IText(Interface):
+class IText(Schema):
 
     title = schema.TextLine(
         title=_(u"Title"),
