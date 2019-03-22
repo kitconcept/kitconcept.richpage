@@ -28,4 +28,12 @@
     import_steps="typeinfo"
     />
 
+  <genericsetup:upgradeDepends
+    source="1003"
+    destination="1004"
+    profile="kitconcept.richpage:default"
+    title="Add dexterity searchable"
+    import_steps="typeinfo"
+    />
+
 </configure>

@@ -39,9 +39,10 @@
   <property name="schema">kitconcept.richpage.content.richpage.IRichPage</property>
 
   <!-- Enabled behaviors -->
-  <property name="behaviors">
+  <property name="behaviors" purge="False">
     <element value="plone.app.content.interfaces.INameFromTitle" />
     <element value="collective.dexteritytextindexer.behavior.IDexterityTextIndexer" />
+    <element value="plone.excludefromnavigation" />
   </property>
 
   <!-- View information -->
