@@ -30,6 +30,11 @@ class IVideo(Schema):
         required=True,
     )
 
+    youtube_image = namedfile.NamedBlobImage(
+        title=u'Youtube Preview Image',
+        required=False,
+    )
+
     dexteritytextindexer.searchable('transcript_description')
     transcript_description = schema.Text(
         title=_(u"Transkript Beschreibung"),
