@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='kitconcept.richpage',
-    version='1.1.0',
+    version='1.1.1.dev0',
     description="Folderish page with rich content",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
