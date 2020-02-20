@@ -51,6 +51,7 @@ setup(
         'test': [
             'plone.app.testing',
             'plone.app.contenttypes',
+            'plone.app.robotframework'
         ],
     },
     entry_points="""
