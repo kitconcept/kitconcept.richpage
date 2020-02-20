@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
 from collective.dexteritytextindexer.utils import searchable
-from plone.app.contenttypes.behaviors.richtext import IRichText
+from plone.app.contenttypes.behaviors.richtext import IRichTextBehavior
 
-searchable(IRichText, 'text')
+searchable(IRichTextBehavior, 'text')

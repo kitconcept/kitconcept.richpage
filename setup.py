@@ -21,10 +21,12 @@ setup(
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Plone",
+        "Framework :: Plone :: 5.2",
         "Framework :: Plone :: 5.1",
         "Framework :: Plone :: 5.0",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 3.7",
         "Operating System :: OS Independent",
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     ],
@@ -49,7 +51,7 @@ setup(
         'test': [
             'plone.app.testing',
             'plone.app.contenttypes',
-            'plone.app.robotframework[debug]',
+            'plone.app.robotframework'
         ],
     },
     entry_points="""
