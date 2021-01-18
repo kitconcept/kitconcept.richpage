@@ -5,7 +5,8 @@ Changelog
 1.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Use short names in behavior names instead of interface names
+  [sneridagh]
 
 
 1.1.0 (2020-02-20)
