@@ -34,8 +34,8 @@
 
   <!-- Enabled behaviors -->
   <property name="behaviors">
-    <element value="plone.app.contenttypes.behaviors.richtext.IRichText"/>
-    <element value="collective.dexteritytextindexer.behavior.IDexterityTextIndexer" />
+    <element value="plone.richtext"/>
+    <element value="collective.dexteritytextindexer" />
   </property>
 
   <!-- View information -->

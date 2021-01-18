@@ -34,8 +34,8 @@
 
   <!-- Enabled behaviors -->
   <property name="behaviors">
-    <element value="plone.app.content.interfaces.INameFromTitle" />
-    <element value="collective.dexteritytextindexer.behavior.IDexterityTextIndexer" />
+    <element value="plone.namefromtitle" />
+    <element value="collective.dexteritytextindexer" />
   </property>
 
   <!-- View information -->
