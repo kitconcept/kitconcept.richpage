@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from plone.app.contenttypes import _
 from plone.app.contenttypes.content import File
 from plone.namedfile import field as namedfile
@@ -8,31 +7,31 @@ from zope.interface import implementer
 
 
 class IFile(model.Schema):
-    """ The IFile interface"""
+    """The IFile interface"""
 
     title = schema.TextLine(
-        title=_(u"Title"),
+        title=_("Title"),
         required=False,
     )
 
     description = schema.Text(
-        title=_(u"Description"),
+        title=_("Description"),
         required=False,
-        missing_value=u'',
+        missing_value="",
     )
 
-    model.primary('file')
+    model.primary("file")
     file = namedfile.NamedBlobFile(
-        title=_(u'label_file'),
+        title=_("label_file"),
         required=True,
     )
 
     alternate_filename = schema.TextLine(
-        title=_(u"Datei-Titel"),
+        title=_("Datei-Titel"),
         required=False,
     )
 
 
 @implementer(IFile)
 class File(File):
-    """ The File content type """
+    """The File content type"""

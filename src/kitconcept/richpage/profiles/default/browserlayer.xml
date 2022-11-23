@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <layers>
-  <layer
-      name="kitconcept.richpage"
-      interface="kitconcept.richpage.interfaces.IKitconceptRichpageLayer"
-      />
+  <layer interface="kitconcept.richpage.interfaces.IKitconceptRichpageLayer"
+         name="kitconcept.richpage"
+  />
 </layers>
