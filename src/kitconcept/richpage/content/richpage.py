@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from collective import dexteritytextindexer
 from kitconcept.richpage import _
 from plone.dexterity.content import Container
@@ -10,23 +9,23 @@ from zope.interface import implementer
 class IRichPage(Schema):
 
     title = schema.TextLine(
-        title=_(u"Title"),
+        title=_("Title"),
         required=True,
     )
 
-    dexteritytextindexer.searchable('subtitle')
+    dexteritytextindexer.searchable("subtitle")
     subtitle = schema.TextLine(
-        title=_(u"Subtitle"),
+        title=_("Subtitle"),
         required=False,
     )
 
     description = schema.Text(
-        title=_(u"Description"),
+        title=_("Description"),
         required=False,
-        missing_value=u'',
+        missing_value="",
     )
 
 
 @implementer(IRichPage)
 class RichPage(Container):
-    """ The RichPage content type """
+    """The RichPage content type"""

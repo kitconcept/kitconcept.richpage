@@ -10,14 +10,15 @@ bin/
 buildout-cache/
 develop-eggs/
 eggs/
+etc/
 htmlcov/
 include/
 lib/
+lib64/
 local/
 parts/
 share/
 src/*
-test.plone_addon/
 var/
 # files
 .installed.cfg
@@ -27,11 +28,13 @@ log.html
 output.xml
 pip-selfcheck.json
 report.html
+inituser
+pip-wheel-metadata
+pyvenv.cfg
 # excludes
 !.coveragerc
 !.editorconfig
 !.gitattributes
 !.gitignore
 !.gitkeep
-!.travis.yml
 !src/kitconcept

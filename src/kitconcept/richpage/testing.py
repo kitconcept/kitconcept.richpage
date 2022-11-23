@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from plone.app.contenttypes.testing import PLONE_APP_CONTENTTYPES_FIXTURE
 from plone.app.testing import applyProfile
 from plone.app.testing import FunctionalTesting
@@ -19,7 +18,7 @@ class KitconceptRichpageLayer(PloneSandboxLayer):
         self.loadZCML(package=kitconcept.richpage)
 
     def setUpPloneSite(self, portal):
-        applyProfile(portal, 'kitconcept.richpage:default')
+        applyProfile(portal, "kitconcept.richpage:default")
 
 
 KITCONCEPT_RICHPAGE_FIXTURE = KitconceptRichpageLayer()
@@ -27,11 +26,11 @@ KITCONCEPT_RICHPAGE_FIXTURE = KitconceptRichpageLayer()
 
 KITCONCEPT_RICHPAGE_INTEGRATION_TESTING = IntegrationTesting(
     bases=(KITCONCEPT_RICHPAGE_FIXTURE,),
-    name='KitconceptRichpageLayer:IntegrationTesting'
+    name="KitconceptRichpageLayer:IntegrationTesting",
 )
 
 
 KITCONCEPT_RICHPAGE_FUNCTIONAL_TESTING = FunctionalTesting(
     bases=(KITCONCEPT_RICHPAGE_FIXTURE,),
-    name='KitconceptRichpageLayer:FunctionalTesting'
+    name="KitconceptRichpageLayer:FunctionalTesting",
 )
