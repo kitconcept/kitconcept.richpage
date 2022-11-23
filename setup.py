@@ -13,7 +13,7 @@ long_description = f"""
 
 setup(
     name="kitconcept.richpage",
-    version="2.0.0",
+    version="2.0.1.dev0",
     description="Folderish page with rich content",
     long_description=long_description,
     long_description_content_type="text/markdown",
