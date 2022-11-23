@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.0.0 (unreleased)
+## 2.0.0 (2022-11-23)
 
 - Support Python 3.8, 3.9, 3.10 and 3.11 for Plone 6. @ericof
 - Support Python 3.7 and 3.8 for Plone 5.2. @ericof
